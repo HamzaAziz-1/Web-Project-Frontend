@@ -85,7 +85,7 @@ const AddProduct = () => {
   const newPostForm = () => (
     <div className="container">
       <form className="mb-3" onSubmit={clickSubmit}>
-        <h4>Product Photo</h4>
+        <h4 className="mb-4">Product Photo</h4>
         <div className="form-group">
           <label className="btn btn-secondary">
             <input
