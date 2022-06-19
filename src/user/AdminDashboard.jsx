@@ -53,8 +53,8 @@ const AdminDashboard = () => {
       <Layout title="Dashboard" description={`Hello ${name}!`}>
             <div className="container">
         <div className="row">
-          <div className="mt-5 mr-3 ml-5 col-md-4">{adminLinks()}</div>
-          <div className="mt-5 ml-5 mr-3 col-md-6">{adminInfo()}</div>
+          <div className="mt-5 mr-4 ml-4 col-md-4">{adminLinks()}</div>
+          <div className="mt-5 ml-4 mr-4 col-md-6">{adminInfo()}</div>
         </div>
         </div>
       </Layout>
