@@ -81,11 +81,14 @@ const Signin = () => {
             {error}
         </div>
     );
-    const showLoading = () => (
-        loading && <div className="alert alert-info">
-            <h3>Loading.......</h3>
-      </div>
-    );
+    const showLoading = () =>
+      loading && (
+        <div class="d-flex justify-content-center">
+          <div class="spinner-border text-success" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+      );
 
     const redirectUser = () => {
         if (redirect) {
